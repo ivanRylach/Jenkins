@@ -29,6 +29,7 @@ public class JenkApp {
 
 
                     event1.addPair("iteration", i + 1);
+                    event1.addPair("another iteration", i + 1);
                     logger.info("{}", event1);
 
                     try {
